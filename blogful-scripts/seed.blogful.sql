@@ -1,0 +1,22 @@
+INSERT INTO blogful_articles (title, date_published, content)
+VALUES
+('Title One', now() - '1 days'::INTERVAL, 'Test Content'),
+('Title Two', now() - '2 days'::INTERVAL, 'Test Content'),
+('Title Three', now() - '3 days'::INTERVAL, 'Test Content'),
+('Title Four', now() - '4 days'::INTERVAL, 'Test Content'),
+('Title Five', now() - '5 days'::INTERVAL, 'Test Content'),
+('Title Six', now() - '6 days'::INTERVAL, 'Test Content'),
+('Title Seven', now() - '7 days'::INTERVAL, 'Test Content'),
+('Title Eight', now() - '8 days'::INTERVAL, 'Test Content'),
+('Title Nine', now() - '9 days'::INTERVAL, 'Test Content'),
+('Title Ten', now() - '10 days'::INTERVAL, 'Test Content'),
+('Title Eleven', now() - '11 days'::INTERVAL, 'Test Content'),
+('Title Twelve', now() - '12 days'::INTERVAL, 'Test Content'),
+('Title Thirteen', now() - '13 days'::INTERVAL, 'Test Content'),
+('Title Fourteen', now() - '14 days'::INTERVAL, 'Test Content'),
+('Title Fifteen', now() - '15 days'::INTERVAL, 'Test Content'),
+('Title Sixteen', now() - '16 days'::INTERVAL, 'Test Content'),
+('Title Seventeen', now() - '17 days'::INTERVAL, 'Test Content'),
+('Title Eightteen', now() - '18 days'::INTERVAL, 'Test Content'),
+('Title Nineteen', now() - '19 days'::INTERVAL, 'Test Content'),
+('Title Twenty', now() - '20 days'::INTERVAL, 'Test Content');
